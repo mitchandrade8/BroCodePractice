@@ -7,7 +7,7 @@ int main() {
 
     x = 5; // Assigned the variable
 
-    std::cout << x;
+    std::cout << x; // Standard output
 
     return 0;
 
