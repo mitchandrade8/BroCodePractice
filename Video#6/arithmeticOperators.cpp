@@ -14,7 +14,7 @@ int main() {
         /// students += 1;
 
     // increment by 1 syntax:
-    students ++;
+        /// students ++;
 
     std::cout << students;
 
@@ -27,10 +27,31 @@ int main() {
         /// students -= 1;
 
     // Decrement by 1 syntax: 
+        /// students --;
 
-    students --;
+    // MARK: - Multiplication
+
+        /// students = students * 2;
+        /// students *= 2;
+
+    // MARK: - Divison
     
+        /// students = students / 2;
+        /// students /= 2;
+
+    int remainder = students % 3;
+
+    std::cout << remainder;
 
     return 0;
 
 }
+
+// MARK: - Notes
+
+    /// PEMDAS 
+     // Parenthesis
+     // Multiplication & Divison 
+     // Addition & Subtraction
+
+    
